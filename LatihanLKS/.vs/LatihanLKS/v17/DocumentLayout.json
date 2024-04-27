@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|d:\\latihan lks\\github\\desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\latihanlks\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\latihanlks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:latihanlks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|d:\\latihan lks\\github\\desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\latihanlks\\kasirpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:kasirpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\gudangpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:gudangpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\kelolauser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:kelolauser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\kelolalaporan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:kelolalaporan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\kelolauser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:kelolauser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\kelolalaporan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:kelolalaporan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\latihanlks.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:latihanlks.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56C405D4-B33F-41F7-BDF4-0C21EA069904}|LatihanLKS.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T08:58:59.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KelolaLaporan.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaLaporan.xaml",
+              "RelativeDocumentMoniker": "KelolaLaporan.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaLaporan.xaml",
+              "RelativeToolTip": "KelolaLaporan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T05:31:59.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "AdminPage.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\AdminPage.xaml",
+              "RelativeToolTip": "AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T00:18:43.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KasirPage.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KasirPage.xaml",
+              "RelativeDocumentMoniker": "KasirPage.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KasirPage.xaml",
+              "RelativeToolTip": "KasirPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T07:45:17.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GudangPage.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\GudangPage.xaml",
+              "RelativeDocumentMoniker": "GudangPage.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\GudangPage.xaml",
+              "RelativeToolTip": "GudangPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T07:44:18.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-25T22:53:11.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LatihanLKS.csproj",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
+              "RelativeDocumentMoniker": "LatihanLKS.csproj",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
+              "RelativeToolTip": "LatihanLKS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-26T00:16:00.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KelolaUser.xaml.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaUser.xaml.cs",
+              "RelativeDocumentMoniker": "KelolaUser.xaml.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaUser.xaml.cs",
+              "RelativeToolTip": "KelolaUser.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T05:39:15.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KelolaUser.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaUser.xaml",
+              "RelativeDocumentMoniker": "KelolaUser.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaUser.xaml",
+              "RelativeToolTip": "KelolaUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T04:09:15.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LatihanLKS",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
+              "RelativeDocumentMoniker": "LatihanLKS.csproj",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
+              "RelativeToolTip": "LatihanLKS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-27T01:13:21.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\Model.cs",
+              "RelativeDocumentMoniker": "Model.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\Model.cs",
+              "RelativeToolTip": "Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T06:41:46.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "AdminPage.xaml.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\AdminPage.xaml.cs",
+              "RelativeToolTip": "AdminPage.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:22:02.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:52:13.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\Controller.cs",
+              "RelativeToolTip": "Controller.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwEoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T00:51:12.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KelolaLaporan.xaml.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaLaporan.xaml.cs",
+              "RelativeDocumentMoniker": "KelolaLaporan.xaml.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\KelolaLaporan.xaml.cs",
+              "RelativeToolTip": "KelolaLaporan.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T06:46:39.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T22:53:06.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T07:19:56.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

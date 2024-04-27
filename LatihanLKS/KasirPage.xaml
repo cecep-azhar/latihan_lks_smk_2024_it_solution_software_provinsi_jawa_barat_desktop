@@ -1,0 +1,149 @@
+﻿<Window x:Class="LatihanLKS.KasirPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LatihanLKS"
+        mc:Ignorable="d"
+        Title="KasirPage" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="75*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="DeepSkyBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="30*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="KASIR" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Grid.Row="1" Source="/Resources/kasir.png"/>
+            <TextBlock Grid.Row="2" Text="KELOLA TRANSAKSI" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center"/>
+            <StackPanel Grid.Row="3">
+                <Button Margin="10,5,10,5" Content="Logout" FontSize="16" FontWeight="Bold" Click="Logout"/>
+            </StackPanel>
+        </Grid>
+        <GridSplitter Grid.Column="1" HorizontalAlignment="Center" Width="10"/>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80*"/>
+                    <RowDefinition Height="20*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="Form Transaksi" FontSize="16" FontWeight="Bold" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                        <Label Grid.Row="2" Content="Pilih Menu" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                        <ComboBox Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <Label Grid.Row="4" Content="Harga Satuan" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                        <TextBox Grid.Row="5" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="1" Content="Kasir 1" FontSize="16" Background="Salmon" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                        <Label Grid.Row="2" Content="Quantitas" FontSize="16" VerticalAlignment="Bottom" Margin="10,0, 0,0"/>
+                        <ComboBox Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <Label Grid.Row="4" Content="Total Harga" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                        <TextBox Grid.Row="5" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                    </Grid>
+                </Grid>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" FlowDirection="RightToLeft">
+                    <Button Content="Reset" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5"/>
+                    <Button Content="Tambah" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Keranjang" Margin="10, 0, 0, 0"/>
+                <DataGrid Grid.Row="1" x:Name="data_user" Margin="10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Width="5*" Binding="{Binding id_user}"/>
+                        <DataGridTextColumn Header="Kode Barang" Width="20*" Binding="{Binding tipe_user}"/>
+                        <DataGridTextColumn Header="Nama Barang" Width="20*" Binding="{Binding nama}"/>
+                        <DataGridTextColumn Header="Harga Satuan" Width="20*" Binding="{Binding telepon}"/>
+                        <DataGridTextColumn Header="Quantitas" Width="15*" Binding="{Binding telepon}"/>
+                        <DataGridTextColumn Header="Subtotal" Width="20*" Binding="{Binding telepon}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Total Harga" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10, 0, 0, 0"/>
+                        <TextBlock Grid.Column="1" Text="Rp. -,00" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                    </Grid>
+                    <TextBox Grid.Row="1" Margin="10, 0, 0, 0"/>
+                    <Button Grid.Row="2" Content="Bayar" FontWeight="Bold" Margin="10, 0, 0, 0"/>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Kembalian" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 0, 0, 0"/>
+                        <TextBlock Grid.Column="1" Text="Rp. -,00" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Print" FontWeight="Bold"/>
+                        <Button Grid.Column="1" Content="Simpan" FontWeight="Bold"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

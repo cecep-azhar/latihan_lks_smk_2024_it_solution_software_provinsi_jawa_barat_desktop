@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "wjn3MV1pfTW5bsY9zS/0KK7dUg/J7m1QBkjEfSkyB8TtGTl+1rjTWVnEDZ/opQoSrOYvqDy2DExPmSCkbiiwWQ==",
+  "success": true,
+  "projectFilePath": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
