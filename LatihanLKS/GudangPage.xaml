@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LatihanLKS"
         mc:Ignorable="d"
+        Icon="/Resources/food_xyz_logo.png"
+        WindowState="Maximized"
         Title="GudangPage" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -55,11 +57,11 @@
                             <RowDefinition/>
                         </Grid.RowDefinitions>
                         <Label Grid.Row="0" Content="Kode Barang" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                        <TextBox Grid.Row="1" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <TextBox x:Name="input_kode_barang" Grid.Row="1" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
                         <Label Grid.Row="2" Content="Nama Barang" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                        <TextBox Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <TextBox x:Name="input_nama_barang" Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
                         <Label Grid.Row="4" Content="Expired Date" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                        <DatePicker Grid.Row="5" FontSize="16" VerticalAlignment="Top" Margin="10,5,10,0"/>
+                        <DatePicker Name="input_expired_date" Grid.Row="5" FontSize="16" VerticalAlignment="Top" Margin="10,5,10,0"/>
                     </Grid>
                     <Grid Grid.Column="1">
                         <Grid.RowDefinitions>
@@ -71,17 +73,21 @@
                             <RowDefinition/>
                         </Grid.RowDefinitions>
                         <Label Grid.Row="0" Content="Jumlah Barang" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                        <TextBox Grid.Row="1" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <TextBox x:Name="input_jumlah_barang" Grid.Row="1" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0" NumberSubstitution.Substitution="Traditional"/>
                         <Label Grid.Row="2" Content="Satuan" FontSize="16" VerticalAlignment="Bottom" Margin="10,0, 0,0"/>
-                        <ComboBox Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <ComboBox Name="input_satuan" Grid.Row="3" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0">
+                            <ComboBoxItem Content="Botol"/>
+                            <ComboBoxItem Content="Box"/>
+                        </ComboBox>
                         <Label Grid.Row="4" Content="Harga per Satuan" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                        <TextBox Grid.Row="5" FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <TextBlock Grid.Row="5" Text="Rp." FontSize="16" VerticalAlignment="Top" Padding="2" Margin="10,5,10,0"/>
+                        <TextBox x:Name="input_harga_satuan" Grid.Row="5" FontSize="16" VerticalAlignment="Top" Padding="30,2,2,2" Margin="10,5,10,0" Background="Transparent"/>
                     </Grid>
                 </Grid>
                 <StackPanel Grid.Row="1" Orientation="Horizontal">
-                    <Button Content="Tambah" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5"/>
-                    <Button Content="Edit" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5"/>
-                    <Button Content="Hapus" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5"/>
+                    <Button Content="Tambah" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5" Click="AddBarang"/>
+                    <Button Content="Edit" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5" Click="EditBarang"/>
+                    <Button Content="Hapus" FontSize="16" FontWeight="Bold" Width="100" Margin="10, 5, 0, 5" Click="RemoveBarang"/>
                 </StackPanel>
             </Grid>
             <GridSplitter Grid.Row="2" Height="10" HorizontalAlignment="Stretch"/>
@@ -96,17 +102,19 @@
                         <ColumnDefinition Width="350"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="Tabel Stock Barang" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10, 0, 0, 0"/>
-                    <TextBox Grid.Column="1" Width="300" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10, 0, 10, 0" Padding="2" FontSize="16"/>
+                    <TextBlock x:Name="placeholder_keyword" Text="Cari nama barang" Grid.Column="1" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10, 0, 170, 0" Padding="2" Foreground="LightGray"/>
+                    <TextBlock Text="🔍" Grid.Column="1" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10, 0, 20, 0" Padding="2" Foreground="Gray"/>
+                    <TextBox x:Name="input_keyword" Grid.Column="1" Width="300" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10, 0, 10, 0" Padding="2" FontSize="16" Background="Transparent" TextChanged="Mencari"/>
                 </Grid>
-                <DataGrid Grid.Row="1" x:Name="data_user" Margin="10">
+                <DataGrid x:Name="data_barang" Grid.Row="1" Margin="10" IsReadOnly="True" MouseDoubleClick="Compare">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID" Width="5*" Binding="{Binding id_user}"/>
-                        <DataGridTextColumn Header="Kode Barang" Width="15*" Binding="{Binding tipe_user}"/>
-                        <DataGridTextColumn Header="Nama Barang" Width="20*" Binding="{Binding nama}"/>
-                        <DataGridTextColumn Header="Expired Date" Width="20*" Binding="{Binding alamat}"/>
-                        <DataGridTextColumn Header="Jumlah" Width="10*" Binding="{Binding telepon}"/>
-                        <DataGridTextColumn Header="Satuan" Width="10*" Binding="{Binding telepon}"/>
-                        <DataGridTextColumn Header="Harga Satuan" Width="20*" Binding="{Binding telepon}"/>
+                        <DataGridTextColumn Header="ID" Width="5*" Binding="{Binding id_barng}"/>
+                        <DataGridTextColumn Header="Kode Barang" Width="15*" Binding="{Binding kode_barang}"/>
+                        <DataGridTextColumn Header="Nama Barang" Width="20*" Binding="{Binding nama_barang}"/>
+                        <DataGridTextColumn Header="Expired Date" Width="20*" Binding="{Binding expired_date}"/>
+                        <DataGridTextColumn Header="Jumlah" Width="10*" Binding="{Binding jumlah_barang}"/>
+                        <DataGridTextColumn Header="Satuan" Width="10*" Binding="{Binding satuan}"/>
+                        <DataGridTextColumn Header="Harga Satuan" Width="20*" Binding="{Binding harga_satuan}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>

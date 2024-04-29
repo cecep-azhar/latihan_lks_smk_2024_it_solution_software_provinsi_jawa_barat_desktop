@@ -1,18 +1,72 @@
 {
   "version": 2,
-  "dgSpecHash": "wjn3MV1pfTW5bsY9zS/0KK7dUg/J7m1QBkjEfSkyB8TtGTl+1rjTWVnEDZ/opQoSrOYvqDy2DExPmSCkbiiwWQ==",
+  "dgSpecHash": "X4fIVOrcLdtJ3aXRUCMBBTUDaFd9wHpoZtLPFLKksutgS+nwFwPget/0BlSnLQIjYCf8SNShE9nAbe8mf0EQ/A==",
   "success": true,
   "projectFilePath": "D:\\Latihan LKS\\Github\\Desktop\\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\\LatihanLKS\\LatihanLKS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.compression.base\\25.1.41\\syncfusion.compression.base.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.data.wpf\\25.1.41\\syncfusion.data.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.datagridexcelexport.wpf\\25.1.41\\syncfusion.datagridexcelexport.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.licensing\\25.1.41\\syncfusion.licensing.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.pdf.wpf\\25.1.41\\syncfusion.pdf.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.sfchart.wpf\\25.1.41\\syncfusion.sfchart.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.sfgrid.wpf\\25.1.41\\syncfusion.sfgrid.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.shared.wpf\\25.1.41\\syncfusion.shared.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\syncfusion.xlsio.wpf\\25.1.41\\syncfusion.xlsio.wpf.25.1.41.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.collections.immutable\\1.3.1\\system.collections.immutable.1.3.1.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\uno.diagnostics.eventing\\2.0.1\\uno.diagnostics.eventing.2.0.1.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\uno.fonts.fluent\\2.3.0\\uno.fonts.fluent.2.3.0.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\uno.foundation.logging\\5.2.95\\uno.foundation.logging.5.2.95.nupkg.sha512",
+    "C:\\Users\\MyBook PRO K7V\\.nuget\\packages\\uno.ui\\5.2.95\\uno.ui.5.2.95.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

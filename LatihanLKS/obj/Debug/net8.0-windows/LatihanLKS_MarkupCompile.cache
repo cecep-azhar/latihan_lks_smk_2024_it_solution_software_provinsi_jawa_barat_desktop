@@ -8,13 +8,13 @@ D:\Latihan LKS\Github\Desktop\latihan_lks_smk_2024_it_solution_software_provinsi
 LatihanLKS
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;HAS_UNO;UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE;UNO_HAS_NO_IDEPENDENCYOBJECT
 D:\Latihan LKS\Github\Desktop\latihan_lks_smk_2024_it_solution_software_provinsi_jawa_barat_desktop\LatihanLKS\App.xaml
-6-378819949
+11-1238286706
 
-12-868001296
-199427237661
-AdminPage.xaml;GudangPage.xaml;KasirPage.xaml;KelolaLaporan.xaml;KelolaUser.xaml;MainWindow.xaml;
+18668219285
+2241560168656
+AdminLoad.xaml;AdminPage.xaml;GudangLoad.xaml;GudangPage.xaml;KasirLoad.xaml;KasirPage.xaml;KelolaLaporan.xaml;KelolaUser.xaml;LogActivity.xaml;LoginForm.xaml;MainWindow.xaml;
 
 False
 

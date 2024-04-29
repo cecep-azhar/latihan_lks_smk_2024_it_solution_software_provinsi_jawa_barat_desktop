@@ -10,5 +10,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=localhost;Initial Catalog=food_xyz_sistem_informasi;Persist Security Info=True;User ID=sa;Password=latihanlks;Encrypt=False;TrustServerCertificate=True</Value>
     </Setting>
+    <Setting Name="credential" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

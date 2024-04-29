@@ -7,10 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminLoad.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GudangLoad.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GudangPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KasirLoad.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="KasirPage.xaml.cs">
@@ -22,15 +31,27 @@
     <Compile Update="KelolaUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LoginPage.xaml.cs">
+    <Compile Update="LogActivity.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginForm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AdminLoad.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AdminPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="GudangLoad.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="GudangPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KasirLoad.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="KasirPage.xaml">
@@ -42,7 +63,10 @@
     <Page Update="KelolaUser.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LoginPage.xaml">
+    <Page Update="LogActivity.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginForm.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

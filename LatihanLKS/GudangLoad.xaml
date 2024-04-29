@@ -1,0 +1,23 @@
+﻿<Window x:Class="LatihanLKS.GudangLoad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LatihanLKS"
+        mc:Ignorable="d"
+        Icon="/Resources/food_xyz_logo.png"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Load Gudang Page" Height="300" Width="250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" x:Name="gudang_icon" Margin="30" Source="/Resources/gudang.png"/>
+        <ProgressBar Grid.Row="1" Height="7" HorizontalAlignment='Stretch' VerticalAlignment="Top" IsIndeterminate="True" BorderThickness="0" Background="Transparent" Foreground="ForestGreen"/>
+        <TextBlock Grid.Row="1" Text="Food XYZ Sistem Informasi" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" Foreground="LightGray"/>
+        <TextBlock Grid.Row="1" Text="Welcome to Gudang" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Foreground="YellowGreen" FontSize="16"/>
+    </Grid>
+</Window>

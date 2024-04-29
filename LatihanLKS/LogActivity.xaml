@@ -1,0 +1,44 @@
+﻿<Page x:Class="LatihanLKS.LogActivity"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LatihanLKS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LogActivity">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Log Activity" FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Pilih Tanggal" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+                <DatePicker x:Name="date" Grid.Column="0" FontSize="16" VerticalAlignment="Top" Margin="10,5,0,0"/>
+                <Button x:Name="fillter_button" Grid.Column="1" Content="Fillter" FontSize="16" FontWeight="Bold" Width="200" HorizontalAlignment="Left" VerticalAlignment="top" Margin="10,5,0,0" Click="FilterDate"/>
+            </Grid>
+        </Grid>
+        <GridSplitter Grid.Row="2" Height="10" HorizontalAlignment="Stretch"/>
+        <DataGrid x:Name="data_log" Grid.Row="3" Margin="10" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="10*"  Binding="{Binding id_log}"/>
+                <DataGridTextColumn Header="Username" Width="30*" Binding="{Binding username}"/>
+                <DataGridTextColumn Header="Waktu" Width="30*" Binding="{Binding waktu}"/>
+                <DataGridTextColumn Header="Aktivitas" Width="30*" Binding="{Binding aktivitas}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

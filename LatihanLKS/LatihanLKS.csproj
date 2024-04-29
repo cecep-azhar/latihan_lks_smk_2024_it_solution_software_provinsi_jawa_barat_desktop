@@ -10,17 +10,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="9391714.png" />
     <None Remove="food xyz logo.png" />
+    <None Remove="gudang.png" />
+    <None Remove="kasir.png" />
+    <None Remove="Resources\gudang.png" />
+    <None Remove="Resources\kasir.png" />
     <None Remove="software-engineer.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="Syncfusion.DataGridExcelExport.Wpf" Version="25.1.41" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="25.1.41" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="Uno.UI" Version="5.2.95" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\food_xyz_logo.png" />
     <Resource Include="Resources\admin.png" />
+    <Resource Include="Resources\gudang.png" />
+    <Resource Include="Resources\kasir.png" />
   </ItemGroup>
 
   <ItemGroup>

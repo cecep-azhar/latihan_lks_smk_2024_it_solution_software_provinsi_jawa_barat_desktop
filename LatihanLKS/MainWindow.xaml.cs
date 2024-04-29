@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using LatihanLKS.Properties;
+using System;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,19 +24,27 @@ namespace LatihanLKS
         public MainWindow()
         {
             InitializeComponent();
+            Settings.Default.credential = "";
+            LaunchTask();
         }
 
-        private void authentication(object sender, RoutedEventArgs e)
+        async System.Threading.Tasks.Task MyTask()
         {
-            string username = input_username.Text;
-            string password = input_password.Password;
-            Controller.authentication(username, password);
+            await Task.Run(async () =>
+            {
+                await System.Threading.Tasks.Task.Delay(5000);
+                this.Dispatcher.Invoke(() =>
+                {
+                    LoginForm loginForm = new LoginForm();
+                    loginForm.Show();
+                    Close();
+                });
+            });
         }
 
-        private void reset_button_Click(object sender, RoutedEventArgs e)
+        private async void LaunchTask()
         {
-            input_username.Clear();
-            input_password.Clear();
+            await MyTask();
         }
     }
 }

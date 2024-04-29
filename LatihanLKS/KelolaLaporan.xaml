@@ -1,72 +1,79 @@
-﻿<Window x:Class="LatihanLKS.KelolaLaporan"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:LatihanLKS"
-        mc:Ignorable="d"
-        Title="KelolaLaporan" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="25*"/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="75*"/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Background="DeepSkyBlue">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="30*"/>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="50*"/>
-            </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Text="ADMIN" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Image Grid.Row="1" Source="/Resources/admin.png"/>
-            <StackPanel Grid.Row="3">
-                <Button Margin="10,5,10,5" Content="Kelola User" FontSize="16" FontWeight="Bold" Click="toKelolaUser"/>
-                <Button Margin="10,5,10,5" Content="Kelola Laporan" FontSize="16" FontWeight="Bold" Click="toKelolaLaporan"/>
-                <Button Margin="10,5,10,5" Content="Logout" FontSize="16" FontWeight="Bold" Click="Logout"/>
-            </StackPanel>
-        </Grid>
-        <GridSplitter Grid.Column="1" HorizontalAlignment="Center" Width="10"/>
-        <Grid Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="20*"/>
-                <RowDefinition Height="35*"/>
-                <RowDefinition Height="35*"/>
-            </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Text="Laporan Penjualan" FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <Grid Grid.Row="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="35*"/>
-                    <ColumnDefinition Width="35*"/>
-                    <ColumnDefinition Width="30*"/>
-                </Grid.ColumnDefinitions>
-                <Grid Grid.Column="0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50*"/>
-                        <RowDefinition Height="50*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="Pilih Tanggal" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                    <DatePicker Grid.Row="1" FontSize="16" VerticalAlignment="Top" Margin="10,5,0,0"/>
-                </Grid>
-                <Grid Grid.Column="1">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50*"/>
-                        <RowDefinition Height="50*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="Pilih Tanggal" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
-                    <DatePicker Grid.Row="1" FontSize="16" VerticalAlignment="Top" Margin="10,5,0,0"/>
-                </Grid>
-                <Grid Grid.Column="2">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50*"/>
-                        <RowDefinition Height="50*"/>
-                    </Grid.RowDefinitions>
-                    <Button Grid.Row="1" Content="Fillter" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" Margin="10,5,0,0"/>
-                </Grid>
+﻿<Page x:Class="LatihanLKS.KelolaLaporan"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:chart="clr-namespace:Syncfusion.UI.Xaml.Charts;assembly=Syncfusion.SfChart.WPF"
+      xmlns:local="clr-namespace:LatihanLKS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="KelolaLaporan">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Laporan Penjualan" FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="30*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="50*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Pilih Tanggal" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                <DatePicker x:Name="input_first_date" Grid.Row="1" FontSize="16" VerticalAlignment="Top" Margin="10,5,0,0"/>
             </Grid>
-            <DataGrid Grid.Row="2" Margin="10"/>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="50*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Pilih Tanggal" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                <DatePicker x:Name="input_last_date" Grid.Row="1" FontSize="16" VerticalAlignment="Top" Margin="10,5,0,0"/>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="50*"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="fllter_button" Grid.Row="1" Content="Fillter" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" Margin="10,5,0,0" Click="FillterTransaksi"/>
+            </Grid>
+        </Grid>
+        <DataGrid x:Name="data_transaksi" Grid.Row="2" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="10*" Header="ID" Binding="{Binding id_transaksi}"/>
+                <DataGridTextColumn Width="30*" Header='Tanggal' Binding="{Binding tgl_transaksi}"/>
+                <DataGridTextColumn Width="30*" Header="Pembayaran" Binding="{Binding total_bayar}"/>
+                <DataGridTextColumn Width="30*" Header="Kasir" Binding="{Binding nama}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="10">
+                <chart:SfChart Name="data_chart"/>
+                <chart:ColumnSeries ItemsSource="{Binding transaksi}" XBindingPath="tgl_transaksi" YBindingPath="total_bayar"/>
+                <chart:SfChart/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Ellipse Grid.Row="0" Width="25" Height="25" Fill="Blue" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock Text="Omset" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="30,0,0,0"/>
+                <Button x:Name="generate_button" Grid.Row="1" FontSize="16" Content="Generate" VerticalAlignment="Top" HorizontalAlignment="Left" Click="GenerateChart"/>
+            </Grid>
         </Grid>
     </Grid>
-</Window>
+</Page>

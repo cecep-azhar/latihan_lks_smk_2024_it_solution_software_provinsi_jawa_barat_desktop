@@ -34,5 +34,17 @@ namespace LatihanLKS.Properties {
                 return ((string)(this["conString"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string credential {
+            get {
+                return ((string)(this["credential"]));
+            }
+            set {
+                this["credential"] = value;
+            }
+        }
     }
 }

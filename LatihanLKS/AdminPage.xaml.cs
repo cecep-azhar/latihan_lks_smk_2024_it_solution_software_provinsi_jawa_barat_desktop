@@ -15,6 +15,10 @@ using System.Data.SqlClient;
 using LatihanLKS.Properties;
 using System.Data;
 using static LatihanLKS.Controller;
+using static LatihanLKS.Model;
+using System.Data.SqlTypes;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 
 namespace LatihanLKS
 {
@@ -23,30 +27,32 @@ namespace LatihanLKS
     /// </summary>
     public partial class AdminPage : Window
     {
+        public string[] credential = Settings.Default.credential.Split(".");
         public AdminPage()
         {
             InitializeComponent();
-            SqlConnection conn = new SqlConnection(Settings.Default.conString);
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM tbl_log", conn);
-            //DataSet ds = new DataSet();
-            ItemsControl ds = new ItemsControl();
-            da.Equals(ds);
-            Console.WriteLine(da);
+            LogActivity logActivity = new LogActivity();
+            main_content.Content = logActivity;
         }
 
         private void Logout(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            log("Logout", Convert.ToInt32(credential[0]));
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            Close();
         }
 
         private void toKelolaUser(object sender, RoutedEventArgs e)
         {
-            redirect("kelola_user");
+            KelolaUser kelolaUser = new KelolaUser();
+            main_content.Content = kelolaUser;
         }
 
         private void toKelolaLaporan(object sender, RoutedEventArgs e)
         {
-
+            KelolaLaporan kelolaLaporan = new KelolaLaporan();
+            main_content.Content = kelolaLaporan;
         }
     }
 }
